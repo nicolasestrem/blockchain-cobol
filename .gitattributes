@@ -1,2 +1,18 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# COBOL source files
+*.cbl linguist-language=COBOL linguist-detectable
+*.cpy linguist-language=COBOL linguist-detectable
+*.CBL linguist-language=COBOL linguist-detectable
+*.CPY linguist-language=COBOL linguist-detectable
+
+# C wrapper (supporting code)
+src/c/*.c linguist-vendored
+src/c/*.h linguist-vendored
+
+# Documentation and tests
+*.md linguist-documentation
+Makefile linguist-documentation
+tests/*.sh linguist-documentation
+tests/*.c linguist-documentation

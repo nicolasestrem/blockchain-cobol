@@ -1,0 +1,41 @@
+# Build artifacts
+build/*
+!build/.gitkeep
+
+# Blockchain data
+data/*.dat
+data/*.bak
+
+# COBOL intermediate files
+*.so
+*.o
+*.a
+*.dylib
+*.dll
+
+# Test outputs
+tests/*.log
+/tmp/*.log
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Core dumps
+core
+core.*
+
+# Backup files
+*.backup
